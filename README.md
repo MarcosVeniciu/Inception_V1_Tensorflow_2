@@ -6,10 +6,10 @@ Artigo mais exemplos de códigos: https://paperswithcode.com/paper/going-deeper-
 
 # Resultado do treinamento
 Para treinar a rede foi utilizado o dataset Mnist com 10.000 imagens para treinamento e 5.000 para trestes. <br/>
-Acurácias de:  <br/>
-    softmax 0: 0.8902000188827515  <br/>
-    softmax 1: 0.8984000086784363  <br/>
-    softmax 2: 0.9876000285148621  <br/><br/><br/>
+Acurácias das funções de softmax:  <br/>
+    *softmax 0: 0.8902000188827515  <br/>
+    *softmax 1: 0.8984000086784363  <br/>
+    *softmax 2: 0.9876000285148621  <br/><br/><br/>
 
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/bdec97aa-a6a8-4784-94b4-7f48da80215c) <br/>
 (grafico de loss e acuracia das imagens de validação durante o treinamento.) <br/><br/><br/>
