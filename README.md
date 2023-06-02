@@ -15,6 +15,7 @@ Foram treinados dois modelos. Um sem Batch Normalization(BN) e outro com Batch N
 |  softmax 2    |     98.76%      |      96.58%     |
 
 <br/>
+
 | Inception V1  |   Loss sem BN   |   Loss Com BN   |
 | ------------- | --------------- | --------------- | 
 |  softmax 0    |     0.5322      |      0.7147     |
@@ -22,6 +23,7 @@ Foram treinados dois modelos. Um sem Batch Normalization(BN) e outro com Batch N
 |  softmax 2    |     0.0662      |      0.1775     |
 
 <br/>
+
 | Inception V1  | Taxa de erro sem BN | Taxa de erro Com BN |
 | ------------- | ------------------- | ------------------- | 
 |  softmax 0    |       10.98%        |       12.92%        |
