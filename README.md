@@ -14,14 +14,14 @@ Foram treinados dois modelos. Um sem Batch Normalization(BN) e outro com Batch N
 |  softmax 1    |     89.84%      |      97.54%     | 
 |  softmax 2    |     98.76%      |      96.58%     |
 
-<br/><br/>
+<br/>
 | Inception V1  |   Loss sem BN   |   Loss Com BN   |
 | ------------- | --------------- | --------------- | 
 |  softmax 0    |     0.5322      |      0.7147     |
 |  softmax 1    |     0.3873      |      0.6366     | 
 |  softmax 2    |     0.0662      |      0.1775     |
 
-<br/><br/>
+<br/>
 | Inception V1  | Taxa de erro sem BN | Taxa de erro Com BN |
 | ------------- | ------------------- | ------------------- | 
 |  softmax 0    |       10.98%        |       12.92%        |
@@ -31,10 +31,10 @@ Foram treinados dois modelos. Um sem Batch Normalization(BN) e outro com Batch N
 <br/><br/>
 Para treinar a rede foi utilizado o dataset Mnist com 10.000 imagens para treinamento. <br/><br/>
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/bdec97aa-a6a8-4784-94b4-7f48da80215c) <br/>
-(Gráfico do treinamento do modelo sem Batch Normalization.) <br/><br/><br/>
+(Gráfico do treinamento do modelo sem Batch Normalization.) <br/>
 
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/4977f246-b089-402f-b568-27c2f5ecd7d2)
-(Gráfico do treinamento do modelo com Batch Normalization.) <br/><br/><br/>
+(Gráfico do treinamento do modelo com Batch Normalization.) <br/><br/>
 
 # Resultado dos testes
 Para testar o modelo foram utilizadas 5.000 imagens.
