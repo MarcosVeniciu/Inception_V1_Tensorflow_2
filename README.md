@@ -6,6 +6,29 @@ Código de referência: https://github.com/tensorflow/models/blob/master/researc
 Artigo mais exemplos de códigos: https://paperswithcode.com/paper/going-deeper-with-convolutions  <br/>
 
 # Resultado do treinamento
+Foi treinado duas verssões do Inception V1. Um modelo sem Batch Normalization (BN) e o segundo com Batch Normalization (BN). <br/>
+
+| Inception V1  | Acurácia sem BN | Acurácia Com BN |
+| ------------- | --------------- | --------------- | 
+|  softmax 0    |     89.02%      |      87.08%     |
+|  softmax 1    |     89.84%      |      97.54%     | 
+|  softmax 2    |     98.76%      |      96.58%     |
+<br/><br/>
+
+| Inception V1  |   Loss sem BN   |   Loss Com BN   |
+| ------------- | --------------- | --------------- | 
+|  softmax 0    |     0.5322      |      0.7147     |
+|  softmax 1    |     0.3873      |      0.6366     | 
+|  softmax 2    |     0.0662      |      0.1775     |
+<br/><br/>
+
+| Inception V1  | Taxa de erro sem BN | Taxa de erro Com BN |
+| ------------- | ------------------- | ------------------- | 
+|  softmax 0    |       10.98%        |       12.92%        |
+|  softmax 1    |       10.16%        |        2.46%        | 
+|  softmax 2    |        1.24%        |        3.42%        |
+<br/><br/>
+
 Para treinar a rede foi utilizado o dataset Mnist com 10.000 imagens para treinamento. <br/><br/>
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/bdec97aa-a6a8-4784-94b4-7f48da80215c) <br/>
 (grafico do treinamento do modelo sem Batch Normalization.) <br/><br/><br/>
@@ -31,13 +54,18 @@ Acurácias das funções de softmax:  <br/>
 (Matriz de confusão para uma das funções de softmax. taxa de erro de 10.98%)
 
 ## Modelo com Batch Normalization
-![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/4d93f8d4-2fee-49db-9a7f-f392ff963fb9)
+Acurácias das funções de softmax:  <br/>
+    softmax 0: 0.8708000183105469  <br/>
+    softmax 1: 0.9753999710083008  <br/>
+    softmax 2: 0.9657999873161316  <br/><br/><br/>
+    
+![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/4d93f8d4-2fee-49db-9a7f-f392ff963fb9) <br/>
 (Matriz de confusão para uma das funções de softmax. taxa de erro de 3.42%) <br/><br/><br/>
 
-![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/32fd00c3-850f-4404-bfa9-723b91f5e0d3)
+![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/32fd00c3-850f-4404-bfa9-723b91f5e0d3) <br/>
 (Matriz de confusão para uma das funções de softmax. taxa de erro de 2.46%) <br/><br/><br/>
 
-![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/0cd2e9fe-8e91-47b3-a73e-a47a09ce60a2)
+![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/0cd2e9fe-8e91-47b3-a73e-a47a09ce60a2) <br/>
 (Matriz de confusão para uma das funções de softmax. taxa de erro de 12.92%) <br/><br/><br/>
 
 
