@@ -6,7 +6,7 @@ Código de referência: https://github.com/tensorflow/models/blob/master/researc
 Artigo mais exemplos de códigos: https://paperswithcode.com/paper/going-deeper-with-convolutions  <br/>
 
 # Resultado do treinamento
-Foi treinado duas verssões do Inception V1. Um modelo sem Batch Normalization (BN) e o segundo com Batch Normalization (BN). <br/>
+Foram treinados dois modelos. Um sem Batch Normalization(BN) e outro com Batch Normalization(BN). <br/>
 
 | Inception V1  | Acurácia sem BN | Acurácia Com BN |
 | ------------- | --------------- | --------------- | 
@@ -67,8 +67,3 @@ Acurácias das funções de softmax:  <br/>
 
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/0cd2e9fe-8e91-47b3-a73e-a47a09ce60a2) <br/>
 (Matriz de confusão para uma das funções de softmax. taxa de erro de 12.92%) <br/><br/><br/>
-
-
-
-
-
