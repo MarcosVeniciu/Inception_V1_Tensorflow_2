@@ -31,10 +31,10 @@ Foi treinado duas verssões do Inception V1. Um modelo sem Batch Normalization (
 <br/><br/>
 Para treinar a rede foi utilizado o dataset Mnist com 10.000 imagens para treinamento. <br/><br/>
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/bdec97aa-a6a8-4784-94b4-7f48da80215c) <br/>
-(grafico do treinamento do modelo sem Batch Normalization.) <br/><br/><br/>
+(Gráfico do treinamento do modelo sem Batch Normalization.) <br/><br/><br/>
 
 ![image](https://github.com/MarcosVeniciu/Inception_V1/assets/42542651/4977f246-b089-402f-b568-27c2f5ecd7d2)
-(grafico do treinamento do modelo com Batch Normalization.) <br/><br/><br/>
+(Gráfico do treinamento do modelo com Batch Normalization.) <br/><br/><br/>
 
 # Resultado dos testes
 Para testar o modelo foram utilizadas 5.000 imagens.
