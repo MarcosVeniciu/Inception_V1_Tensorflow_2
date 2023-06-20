@@ -1,4 +1,4 @@
-# Inception_V1
+# Inception_V1 
 Implementation of the Inception V1 convolutional neural network using TensorFlow 2.  <br/>
 Reference Article Inception V1: https://arxiv.org/pdf/1409.4842v1.pdf  <br/>
 Batch Normalization reference Article: https://arxiv.org/pdf/1502.03167v3.pdf <br/>
